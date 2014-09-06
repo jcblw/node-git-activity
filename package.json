@@ -1,6 +1,6 @@
 {
   "name": "git-activity",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "Simple util to grab commits from the day or time specified",
   "main": "index.js",
   "scripts": {
