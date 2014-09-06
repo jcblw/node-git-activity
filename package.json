@@ -1,0 +1,29 @@
+{
+  "name": "node-git-activity",
+  "version": "0.0.3",
+  "description": "Simple util to grab commits from the day or time specified",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcblw/node-git-activity"
+  },
+  "keywords": [
+    "git",
+    "log",
+    "activity"
+  ],
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcblw/node-git-activity/issues"
+  },
+  "homepage": "https://github.com/jcblw/node-git-activity",
+  "dependencies": {
+    "moment": "~2.8.3",
+    "minimist": "~1.1.0",
+    "string-humanize": "~1.0.0"
+  }
+}
