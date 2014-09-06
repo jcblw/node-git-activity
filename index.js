@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var
 moment = require( 'moment' ),
 childProcess = require( 'child_process' ),
