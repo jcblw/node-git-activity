@@ -99,7 +99,7 @@ function getActivity ( options ) {
     after = '--after=' + options.after,
     before = '--before=' + options.before,
     author = options.author ? ( '--author=' + options.author ) : null,
-    format = options.json ? ( '--pretty=format:{%n  "commit": "%H",%n  "author": "%an <%ae>",%n  "date": "%ad",%n  "message": "%f"%n}' ) : null,
+    format = options.json ? ( '--pretty=format:{ "commit": "%H",  "author": "%an <%ae>",  "date": "%ad",  "message": "%f"}' ) : null,
     args = [ 'log', after, before ],
     git;
 
