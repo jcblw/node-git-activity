@@ -3,6 +3,7 @@
 var
 moment = require( 'moment' ),
 childProcess = require( 'child_process' ),
+untilde = require( 'untildify' ),
 spawn = childProcess.spawn,
 exec = childProcess.exec,
 argv = require('minimist')(process.argv.slice(2)),
@@ -30,6 +31,7 @@ function init (  ) {
 
     var activity;
 
+    dir = dir ? untilde( dir ) : null;
     start = formatDate( _start );
     end = formatDate( _end );
 
