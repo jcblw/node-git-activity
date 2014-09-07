@@ -123,7 +123,7 @@ function getActivity ( options ) {
 
 function formatDate( date ) {
     // 2013-11-12 00:00
-    return moment( date ).format( 'YYYY-MM-DD HH:mm' );
+    return moment( new Date( date ) ).format( 'YYYY-MM-DD HH:mm' );
 }
 
 /*
