@@ -1,6 +1,6 @@
 {
   "name": "git-activity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple util to grab commits from the day or time specified",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,8 @@
   "dependencies": {
     "moment": "~2.8.3",
     "minimist": "~1.1.0",
-    "string-humanize": "~1.0.0"
+    "string-humanize": "~1.0.0",
+    "untildify": "~1.0.0"
   },
   "bin": {
     "git-activity": "index.js"
