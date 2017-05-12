@@ -1,5 +1,7 @@
 # Git Activity
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/node-git-activity.svg)](https://greenkeeper.io/)
+
 Simple utiltity for getting a list of commits for a specified time.
 
 ### Why not just git?
