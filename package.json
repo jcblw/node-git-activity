@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/jcblw/node-git-activity",
   "dependencies": {
-    "moment": "~2.8.3",
-    "minimist": "~1.1.0",
+    "moment": "~2.18.1",
+    "minimist": "~1.2.0",
     "string-humanize": "~1.0.0",
-    "untildify": "~1.0.0"
+    "untildify": "~3.0.2"
   },
   "bin": {
     "git-activity": "index.js"
